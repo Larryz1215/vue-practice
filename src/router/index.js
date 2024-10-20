@@ -2,7 +2,7 @@ import { createRouter, createWebHistory,createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHashHistory('/base-site/'),
+  history: createWebHistory('/base-site/'),
   routes: [
     {
       path: '/',
